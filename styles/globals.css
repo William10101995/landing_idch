@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+/* styles/styles.css */
+::-webkit-scrollbar {
+  width: 12px; /* ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #16a34a; /* color del pulgar de la barra de desplazamiento */
+  border-radius: 6px; /* esquinas redondeadas del pulgar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* color del fondo de la barra de desplazamiento */
+}
